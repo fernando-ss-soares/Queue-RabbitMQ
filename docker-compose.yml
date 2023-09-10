@@ -1,0 +1,10 @@
+version: '3'
+services:
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    ports:
+      - "5672:5672"  # Porta para acessar o RabbitMQ internamente no Docker
+      - "15672:15672"  # Porta do RabbitMQ Management para monitoramento
+    environment:
+      - RABBITMQ_DEFAULT_USER=fernando
+      - RABBITMQ_DEFAULT_PASS=1234546
