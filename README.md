@@ -21,7 +21,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Você instalou a versão mais recente do `Docker`
 - Você tem uma máquina `<Windows / Linux / Mac>`.
 
-## 🚀 Instalando Taskify
+## 🚀 Instalando Queue-RabbitMQ
 
 Para instalar o RabbitMQ, siga estas etapas:
 
